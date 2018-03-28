@@ -1,0 +1,120 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    max-width: 800px;
+    margin: auto;
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+    border-bottom: 0.5vh solid #7d97ad;
+}
+
+.header-text {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-right: 2vw;
+}
+
+header h1 {
+    font-size: 6vmin;
+}    
+
+header h4 {
+    font-size: 3vmin;
+}
+
+header img{
+    transform: rotate(1.25turn);
+    height: 10vmin;
+    width: auto;
+    flex: 0 0 1;
+    align-self: center;
+    box-sizing: content-box;
+    padding-bottom: 2vw;
+}
+
+header h1,h4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}    
+
+hero img {
+    max-width: 100%;
+    padding-top: 1vh;
+    box-sizing: border-box;   
+}
+
+
+.featured {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;   
+    height: 36vw;
+}
+
+.featured h2 {
+    flex: 1 1 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.featured-work {
+    flex: 0 0 calc(33.3vw - 8px);
+    
+}
+
+.featured-work img {
+    max-width: 100%;
+    height: 160px;
+}
+
+.featured-work h3,p {
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+    font-weight: 800;
+    color: darkkhaki;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    border-top: 0.5vh solid #7d97ad;
+}
+
+footer a {
+    color: black;
+    flex: 1 0 1;
+}
+
+[class*="brandico-"],[class*="fa-"]{
+    margin: 2.5vw;
+}
+
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+}
+
