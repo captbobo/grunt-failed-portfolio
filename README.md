@@ -4,7 +4,7 @@ this is my portfolio project for Google Udacity Front-End Dev. Challenge
 
 ---
 
-#Current problem: 
+# Current problem: 
 when I run `grunt` it returns:
 
 ```
