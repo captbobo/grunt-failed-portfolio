@@ -1,19 +1,23 @@
-# portfolio
+# portfolio project
 
 this is my portfolio project for Google Udacity Front-End Dev. Challenge
 
 ---
 
-#The problem: 
-Although the local `Gruntfile.js` has almost the exact same syntax and dependencies and the packages and 
-the versions as the Project-Part-1/Project-Part-2/Project-Part-3 files of Responsive Images Course, when 
-I try running grunt in this dir it pops an error:
+#Current problem: 
+when I run `grunt` it returns:
 
-``` 
->> No "clean" targets found.
-Warning: Task "clean" failed. Use --force to continue.
+Running "responsive_images:dev" (responsive_images) task
+>> Unable to compile; no valid source files were found.
+>> Unable to compile; no valid source files were found.
+>> Unable to compile; no valid source files were found.
 
-Aborted due to warnings.
-```
+---
 
-I tried node versions 8.11.0 and 9.8.0 nothing worked so far
+I don't understand the issue since in the `Gruntfile.js` all the file names and syntax seems to be correct!
+
+
+
+
+
+
