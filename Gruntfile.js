@@ -1,7 +1,7 @@
-module.exports = function(grunt) {
+
+module.exports = function(grunt){
 
   grunt.initConfig({
-//    pkg: grunt.file.readJSON('package.json'),
     responsive_images: {
       dev: {
         options: {
@@ -35,27 +35,28 @@ module.exports = function(grunt) {
             sample: true,
             }],
             
-            files:{
-              expand: true,
-              src: ['*.{gif,jpg,png}'],
-              cwd: 'images_src/',
-              dest: 'images/'    
+          files:{
+            expand: true,
+            src: ['/*.{gif,jpg,png}'],
+            cwd: 'images_src/',
+            dest: 'images/'
+            },
+          },
+        },
+      },
+        
+        clean: {
+          dev: {
+            src: ['images']
             },
         },
-        
-          clean: ['images'],
-//        clean: {
-//          dev: {
-//            src: ['images']
-//            },
-//        },
         mkdir: {
           dev: {
             options: {
               create: ['images']
-                }
-            }
-        },
+              },
+            },
+          },
 //        copy: {
 //          dev: {
 //            files: [{
@@ -65,8 +66,7 @@ module.exports = function(grunt) {
 //                }]
 //            },
 //        },
-      }
-    }});
+      });
     
     grunt.loadNpmTasks('grunt-responsive-images');
     grunt.loadNpmTasks('grunt-contrib-clean');

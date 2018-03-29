@@ -1,12 +1,16 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "can surmeli - portfolio",
-  "main": "index.js",
+  "description": "can surmeli - portfolio",   
+  "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+    "test": "echo \"Error: no test specified\" && exit 1" 
+    },
+  "repository": {
+    "type": "git",
+    "URL": "https://github.com/captbobo/portfolio"
+      },
+  "author": "Can Surmelia",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
