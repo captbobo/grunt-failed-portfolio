@@ -23,6 +23,7 @@ that are used in:
  - Project-Part-1-Start-min
  - Project-Part-1-Start-min
 
+Yet the same thing also happened with 'grunt-contrib-clean'. That was resolved when I re-installed node, npm, and plugins while trying the versions specified in Project-Part-3 files.
 
 ---
 
