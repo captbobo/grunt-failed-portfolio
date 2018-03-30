@@ -15,10 +15,19 @@ Running "responsive_images:dev" (responsive_images) task
 ```
 ---
 
-I don't understand the issue since in the `Gruntfile.js` all the file names and syntax seems to be correct!
+All the file names and syntax in `Gruntfile.js` seems correct, right?
+
+Also, I've tried running it with the package versions of node, npm, 
+grunt and grunt plugins: grunt-responsive-images, grunt-contrib-clean, grunt-mkdir 
+that are used in:
+ - Project-Part-1-Start-min
+ - Project-Part-1-Start-min
 
 
+---
 
-
-
-
+Udacity Responsive Images Course (https://classroom.udacity.com/courses/ud882):
+  Project-Part-1 (https://classroom.udacity.com/courses/ud882/lessons/3520939843/concepts/37681789440923)
+  Project-Part-3 (https://classroom.udacity.com/courses/ud882/lessons/3574748851/concepts/37757186590923)  
+  
+  
