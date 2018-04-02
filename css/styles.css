@@ -76,13 +76,14 @@ hero img {
 }
 
 .featured-work {
-    flex: 0 0 calc(33.3vw - 8px);
+    flex: 0 0; 
+    flex-basis: calc(100% /3 - 10px);
     
 }
 
 .featured-work img {
     max-width: 100%;
-    height: 160px;
+/*    max-height: */
 }
 
 .featured-work h3,p {
